@@ -323,6 +323,6 @@ int main(int argc, char *argv[])
 finish:
 	if (output)
 		free(output);
-
+	free(eeprom);
 	return ret;
 }
